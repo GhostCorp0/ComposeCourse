@@ -1,3 +1,4 @@
+/*
 package com.ghostcorp.composecourse.BottomNavigationBar
 
 import androidx.collection.mutableIntSetOf
@@ -65,11 +66,11 @@ fun BottomNavigationBarEx () {
             Surface(modifier = Modifier.fillMaxWidth().padding(
                 bottom = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding())
             ) {
-                BottomAppBar {  }
+               BottomAppBar(item) {  }
             }
         }
     ) { innerPadding ->
 
     }
 
-}
+}*/

@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.kotlin.parcelize)
+    alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
 }
@@ -55,6 +56,13 @@ dependencies {
     // Compose Nav Destinations
     implementation(libs.core)
     ksp(libs.ksp)
+
+    // Navigation Compose
+    implementation(libs.androidx.navigation.compose)
+
+    // KotlinX Serialization
+    implementation(libs.kotlinx.serialization.json)
+
 
     //Dagger - Hilt
     implementation(libs.hilt.android)
