@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ComposeCourse</string>
     <string name="fruit_name">Orange</string>
+    <string name="fruit_names">Orange</string>
 </resources>
